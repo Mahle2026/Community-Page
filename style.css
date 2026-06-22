@@ -38,7 +38,7 @@ body{
     margin: 15px 0;
 }
 
-input-box input{
+.input-box input{
     width: 100%;
     padding: 40px;
     border: none;
@@ -55,7 +55,7 @@ input-box input{
     color: #ff4d4d;
 }
 
-.login-box:button{
+button{
     width: 100%;
     padding: 12px;
     background: #ff4d4d;

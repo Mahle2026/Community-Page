@@ -241,6 +241,38 @@ button:hover,
 
     nav.active{
         display:flex;
+        align-items: center;
+        gap:12px;
     }
 
+    .logo{
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+
+    .logo-box{
+      display: flex;
+      align-items: center;
+      gap:20px;
+    }
+
+    .logo-box-v,
+    .logo-box-d {
+        font-size:32px;
+        line-height: 1;
+    }
+    
+   .logo-box h2{
+    margin:0;
+    font-size:2rem;
+    line-height:1.1;
+   }
+
+   .logo-box p{
+    margin: 0;
+    font-size:0.9rem;
+    opacity: 0.8;
+   }
 }

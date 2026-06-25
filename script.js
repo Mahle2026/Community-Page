@@ -3,7 +3,7 @@ function login() {
     const password = document.getElementById("password");
 
     if(username.value.trim() === "" ||
-    password.value.trim() === "" {
+    password.value.trim() === "") {
         alert("Please enter your username and password.");
         return;
     }

@@ -321,7 +321,7 @@ button:hover,
 }
 
 .project-grid a,
-.video-card a{
+.video-grid a{
     display: inline-block;
     background:#0f172a;
     margin-top: 10px;

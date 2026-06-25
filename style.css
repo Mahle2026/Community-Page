@@ -11,10 +11,14 @@ body {
 }
 
 .login-body {
-    height: 100vh;
+    min-height: 100vh;
+    max-width: 65vh;
+    padding: 50px 35px;
+    border-radius: 18px;
+    text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background: linear-gradient(135deg, #000, #8b0000,#000);
 }
 
@@ -90,20 +94,16 @@ button,
 
     .login-body{
         min-height: 100vh;
+        padding: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .login-card {
-        width: 95vw;
-        max-width:550px;
-        height: 70vh;
-        padding: 50px;
-        border-radius: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 95%;
+        max-width:none;
+        min-height: 75vh;
+        padding: 50px 30px;
     }
 
     .login-card h1{

@@ -45,11 +45,11 @@ body {
     color: #ccc;
 }
 
-
 .input-box {
-    position: relative;
-    margin: 30px;
+    width: 100%;
+    margin: 25px 0;
 }
+
 .input-box input {
     width: 100%;
     padding: 12px 5px;
@@ -110,6 +110,7 @@ button,
         max-width: 360px;
         min-height: 560px;
         padding: 35px 25px;
+        align-items: stretch;
     }
 
     .login-card h1{
@@ -120,11 +121,14 @@ button,
         font-size: 1rem;
     }
 
+    .input-box{
+        width: 100%;
+        margin: 20px 0;
+    }
+
     .input-box input{
         width: 100%;
-        padding: 12px;
-        font-size: 18px;
-        margin: 35px 0;
+        padding: 15px 0;
     }
 
     .input-box label{
@@ -132,7 +136,7 @@ button,
     }
 
     .login-card button {
-        width: auto;
+        width: auto
         padding: 12px 35px;
         font-size: 16px;
         align-self: center;

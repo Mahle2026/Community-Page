@@ -24,13 +24,15 @@ body {
 
 .login-card {
     width: 90%;
-    max-width: 420px;
-    min-height: 520px;
-    padding: 35px 30px;
+    max-width: 380px;
+    min-height: 500px;
+    padding:40px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgba(0,0,0,0.85);
+    background: rgba(20,20,20,0.75);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.1);
     border-radius: 18px;
     text-align: center;
     box-shadow: 0 0 30px rgba(255,0,0,0.6);
@@ -48,7 +50,7 @@ body {
 .input-box {
     position: relative;
     width: 100%;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 .input-box input {
@@ -81,6 +83,8 @@ body {
 button,
 .hero-btn {
     display: inline-block;
+    margin-top: 25px;
+    align-self: center;
     padding: 12px 22px;
     background: red;
     color: white;
@@ -108,9 +112,9 @@ button,
     }
     .login-card {
         width: 88%;
-        max-width: 360px;
-        min-height: 560px;
-        padding: 35px 25px;
+        max-width: 340px;
+        min-height: 460px;
+        padding: 30px 25px;
         align-items: stretch;
     }
 

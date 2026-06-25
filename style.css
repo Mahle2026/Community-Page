@@ -87,9 +87,17 @@ button,
 
 
 @media (max-width: 768px) {
+
+    .login-body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .login-card {
         width: 90%;
-        max-width:420px;
+        max-width:500px;
+        min-height: 65vh;
         padding: 40px 30px;
         border-radius: 20px;
     }

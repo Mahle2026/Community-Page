@@ -260,12 +260,10 @@ button:hover,
       gap:20px;
     }
 
-    .logo-box-v,
-    .logo-box-d {
-        font-size:32px;
+    .logo-box .v,
+    .logo-box .d {
+        font-size:28px;
         line-height: 1;
-        position: relative;
-        top:2px;
     }
     
    .logo-box h2{

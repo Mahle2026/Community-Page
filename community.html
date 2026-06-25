@@ -1,1 +1,134 @@
-      
+<!DOCTYPE html>    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devoice-width, intial-scale=1.0">
+    <title>Vandice Tech Community</title>
+    <link rel="stylesheet" href="community.css">
+    <script src="community.js" defer></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div clas="logo">
+            <div class="logo-box">
+                <span class="v">V</span><span class="d">D</span>
+            </div>
+    <div>
+        <h2>Vandice Tech</h2>
+        <p>Digital Solution</p>
+    </div>
+    </div>
+   <button class="menu-btn" onclick="toggleMenu()">&#9776;</button>
+
+   <nav id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#story">Story</a>
+    <a href="#blog">Blog</a>
+    <a href="#projects">Projects</a>
+    <a href="#updates">Updates</a>
+    <a href="videos">Videos</a>
+    <a href="#reviews">Reviews</a>
+   </nav>
+    </header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="tag">Vandice Tech</p>
+
+    <h1>Simple digital solutions for creative ideas.</h1>
+
+    <p> 
+        Welcome to our community blog where we share weekly updates,
+        projects progress, learning resources, reviews and digital ides.
+    </p>
+
+    <div class="hero-buttons">
+        <a href="#blog">Read Blog</a>
+        <a href="#projects" class="outline">View Projects</a>
+    </div>
+    </div>
+</section>
+
+<section id="story" class="story-section">
+    <div class="story-card">
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-149805108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Coding workspace">
+        </div>
+
+    <div class="story-text">
+        <span>Featured Story</span>
+
+        <h2>Building Vandice Tech step by step</h2>
+
+        <p>
+            Vandice Tech is a growing digital brand focused on clean websites, creative projects and simple technology solutions.
+        </p>
+
+        <p>
+            This community space is where we share our journey, updates, reviews and projects we are building.
+        </p>
+
+        <button onclick="readArticle()">Read Article</button>
+    </div>
+    </div>
+</section>
+
+<section id="blog" class="section">
+    <h2>📝 Weekly Blog</h2>
+
+    <p class="section-intro">
+        Every week we share what we are building, learning and improving.
+    </p>
+    <div class="blog-grid">
+        <article class="blog-card">
+            <span>Week 1</span>
+            <h3>Starting the Vandice Tech journey</h3>
+            <p> 
+                We started building online presence and created a community spaced linked to the company website.
+            </p>
+            <button onclick="readBlog(1)">Read More</button>
+        </article>
+
+    <article class="blog-card">
+        <span>Week 2</span>
+        <h3>Improving the user experience</h3>
+         <p>
+            We worked on making the pages cleaner, eaiser to use and responsive on phones, tablet and desktops.
+         </p>
+         <button onclick="readBlog(2)">Read More</button>
+    </article>
+
+    <article class="blog-card">
+        <span>Coming Soon...</span>
+        <h3>More project updates</h3>
+        <p>
+            Future posts will inlcude project, launches, lessons and company updates
+            </p>
+    </article>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>💻 Projects Links</h2>
+    <p class="section-intro">
+        Explore some of our digital projects we have built.
+    </p>
+
+    <div class="project-grid">
+        <a href="https://calculator-one-mu-25.vercel.app/" target="_blank" class="project-card">
+            <h3>Calculator App</h3>
+            <p>A simple JavaScript calculator for basic calculations.</p>
+        </a>
+
+        <a href="https//vd-weather-app.vercel.app/" target="_blank" class="project-card">
+            <h3>Weather App</h3>
+            <p>A clean weather app that displays weather information.</p>
+        </a>
+
+        <a href=""
+    </div>
+</section>
+
+</body>
+</html>

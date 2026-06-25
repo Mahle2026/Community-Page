@@ -24,9 +24,7 @@ body{
 
 .logo{
    display: flex;
-   justify-content: center;
    align-items: center; 
-   flex-shrink: 0;
    gap: 12px;
 }
 
@@ -50,22 +48,16 @@ body{
 .logo-box .d{
     color: #60a5fa;
 }
-.logo-text{
-    display: flex;
-    flex-direction: column;
-}
-
-.logo-text h2{
-    margin: 0;
+.logo h2{
     color: white;
-    line-height: 1.1;
+    font-size:1.2rem;
 }
 
-.logo-text p{
-    margin: 2px 0 0;
-    line-height: 1.1;
-    color:#60a5fa;
 
+
+.logo p{
+    color:#60a5fa;
+    font-size: 0.8rem;
 }
 
 nav{
@@ -101,6 +93,8 @@ nav a:hover{
     align-items: center;
     background: linear-gradient(rgba(3,7,18,0.75)),
     url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1500&q=80");
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content{
@@ -229,71 +223,23 @@ button:hover,
 
 
 @media(max-width: 768px) {
-
-    .navbar{
-        width:100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap:20px;
-
-    }
-    .logo{
-        display: block;
-        align-items: center;
-        gap: 20px;
-    }
-    .logo-text{
-        display: flex;
-        align-items: center;
-        gap:12px;
-    }
-
-    .logo-text h2{
-        margin: 0;
-        font-size: 1rem;
-        line-height: 1.1;
-    }
-
-    .logo-text p{
-        margin: 2px 0 0;
-        font-size: 0.75rem;
-        line-height: 1.1;
-    }
-    .logo-box{
-        display: flex;
-        width: 48px;
-        height: 48px;
-        flex-shrink: 0;
-    }
-
     .menu-btn{
         display:block;
-        margin-left: auto;
-        font-size: 28px;
     }
 
     nav{
-        display: none;
-        position:absolute;
-        top:80px;
-        left: 0;
-        right: 0;
-        width: 100%;
+        display:none;
+        position: absolute;
+        top: 80px;
+        right: 20px;
         background: #0f172a;
         padding: 20px;
-        border-radius: 0;
+        border-radius: 15px;
         flex-direction: column;
-        text-align: center;
     }
 
     nav.active{
         display:flex;
     }
 
-    nav a{
-        width: 100%;
-        padding:12px 0;
-    }
 }

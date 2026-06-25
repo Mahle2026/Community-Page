@@ -24,10 +24,12 @@ body {
 
 .login-card {
     width: 90%;
-    max-width: 520px;
-    padding: 45px 35px;
+    max-width: 420px;
+    min-height: 520px;
+    padding: 35px 30px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: rgba(0,0,0,0.85);
     border-radius: 18px;
     text-align: center;
@@ -104,9 +106,9 @@ button,
         align-items: center;
     }
     .login-card {
-        width: 95%;
-        max-width:none;
-        min-height: 75vh;
+        width: 88%;
+        max-width: 360px;
+        min-height: 560px;
         padding: 35px 25px;
     }
 
@@ -122,6 +124,7 @@ button,
         width: 100%;
         padding: 12px;
         font-size: 18px;
+        margin: 35px 0;
     }
 
     .input-box label{
@@ -130,8 +133,8 @@ button,
 
     .login-card button {
         width: auto;
-        padding: 12px 28px;
-        font-size: 18px;
+        padding: 12px 35px;
+        font-size: 16px;
         align-self: center;
     }
 }

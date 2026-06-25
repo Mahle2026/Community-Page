@@ -28,7 +28,8 @@ html,body{
 
 
 .logo{
-   display: flex;
+   display: block;
+   justify-content: flex-start;
    align-items: center; 
    gap: 12px;
 }
@@ -92,6 +93,69 @@ nav a:hover{
     cursor: pointer;
 }
 
+.hero{
+    min-height: 90vh;
+    padding: 80px 7%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(3,7,18,0.75)),
+    url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1500&q=80");
+}
+
+.hero-content{
+    max-width: 760px;
+}
+
+.tag,
+.story-text span,
+.blog-card span,
+.event-card span,
+.tool-card span{
+    color: #60a5fa;
+    font-weight:bold;
+}
+
+.hero h1{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin:15px 0;
+}
+
+.hero p{
+    color: #dbeafe;
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+.hero-button a,
+button,
+.main-btn,
+.tool-card a{
+    background:#2563eb;
+    color:white;
+    padding: 12px 22px;
+    border: none;
+    border-radius:10px;
+    text-decoration: none;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+
+button:hover,
+.hero-buttons a:hover,
+.main-btn:hover,
+.tool-card a:hover{
+    background: #3b82f6;
+}
+
+.outline{
+    background: transparent;
+    border: 2px solid #60a5fa;
+}
+
+
 
 @media(max-width: 768px) {
 
@@ -105,8 +169,7 @@ nav a:hover{
 
     }
     .logo{
-        display: flex;
-        flex-direction: row;
+        display: block;
         align-items: center;
         gap: 20px;
     }

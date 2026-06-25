@@ -274,4 +274,34 @@ button:hover,
     font-size:0.9rem;
     opacity: 0.8;
    }
+
+   .hero{
+    text-align: center;
+    padding: 60px 20px;
+   }
+
+   .hero-buttons{
+    justify-content:center;
+   }
+
+   .story-card{
+    grid-template-columns: 1fr;
+   }
+
+   .story-image img{
+    height:220px;
+   }
+
+   .story-text {
+    text-align: center;
+   }
+
+   .story-text button{
+    margin: auto;
+   }
+
+   .section,
+   .story-section{
+    padding: 50px 20px;
+   }
 }

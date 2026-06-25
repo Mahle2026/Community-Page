@@ -251,6 +251,7 @@ button:hover,
         justify-content: center;
         width: 60px;
         height: 60px;
+        gap:2px;
         flex-shrink: 0;
     }
 
@@ -265,6 +266,8 @@ button:hover,
     .logo-box-d {
         font-size:32px;
         line-height: 1;
+        position: relative;
+        top:2px;
     }
     
    .logo-box h2{

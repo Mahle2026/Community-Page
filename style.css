@@ -40,12 +40,6 @@ body {
     color: #ccc;
 }
 
-.login-content{
-    display:flex;
-    flex: column;
-    justify-content: center;
-    flex: 1;
-}
 
 .input-box {
     position: relative;

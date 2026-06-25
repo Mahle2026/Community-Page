@@ -242,7 +242,7 @@ button:hover,
     nav.active{
         display:flex;
         align-items: center;
-        gap:0px;
+        gap:0;
     }
 
     .logo{

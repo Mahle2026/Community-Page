@@ -246,10 +246,10 @@ button:hover,
     .logo{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         width: 60px;
         height: 60px;
-        gap:2px;
+        gap:10px;
         flex-shrink: 0;
     }
 

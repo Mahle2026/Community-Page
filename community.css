@@ -234,7 +234,7 @@ button:hover,
         background: #0f172a;
         padding: 20px;
         border-radius: 15px;
-        flex-direction: column;
+        flex-direction : column;
     }
 
     nav.active{
@@ -254,6 +254,7 @@ button:hover,
 
     .logo-box{
       display: flex;
+      flex-direction: column;
       align-items: center;
     }
 

@@ -218,7 +218,43 @@ button:hover,
     background:#0f172a;
 }
 
+.blog-card,
+.project-card,
+.event-card,
+.tool-card,
+.comment-card{
+    background:#111827;
+    border: 1px solid rgba(96,165,250,0.25);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(96,165,250,0.15);
+    transition: 0.3s;
+}
 
+.dark,
+.blog-grid,
+.project-grid,
+.event-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.blog-card h3,
+.project-card h3,
+.event-card h3,
+.tool-card h3{
+    margin: 12px 0;
+    color: white;
+}
+
+.blog-card p,
+.project-card p,
+.event-card p,
+.tool-card p{
+    color: #cbd5e1;
+    margin-bottom: 18px;
+}
 
 
 @media(max-width: 768px) {

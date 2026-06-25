@@ -95,11 +95,15 @@ button,
         align-items: center;
     }
     .login-card {
-        width: 90%;
-        max-width:500px;
-        min-height: 65vh;
-        padding: 40px 30px;
+        width: 95vw;
+        max-width:550px;
+        height: 70vh;
+        padding: 50px;
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .login-card h1{

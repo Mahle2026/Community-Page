@@ -36,6 +36,10 @@ body {
     color: #ccc;
 }
 
+.input-box {
+    position: relative;
+    margin: 30px;
+}
 .input-box input {
     width: 100%;
     padding: 12px 5px;
@@ -62,7 +66,8 @@ body {
       font-size: 12px;
       color: red;
 }
-
+ 
+button,
 .hero-btn {
     display: inline-block;
     padding: 12px 22px;
@@ -75,8 +80,7 @@ body {
     font-weight: bold;
 }
 
-button:hover,
-.hero-btn:hover{
+.button:hover,
+.hero-btn:hover {
     background: #ff3333;
 }
-

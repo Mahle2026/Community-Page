@@ -23,8 +23,11 @@ body {
 }
 
 .login-card {
-    width: 360px;
-    padding: 40px;
+    width: 90%;
+    max-width: 520px;
+    padding: 45px 35px;
+    display: flex;
+    flex-direction: column;
     background: rgba(0,0,0,0.85);
     border-radius: 18px;
     text-align: center;
@@ -104,7 +107,7 @@ button,
         width: 95%;
         max-width:none;
         min-height: 75vh;
-        padding: 50px 30px;
+        padding: 35px 25px;
     }
 
     .login-card h1{
@@ -126,8 +129,9 @@ button,
     }
 
     .login-card button {
-        width: 100%;
-        padding: 18px;
+        width: auto;
+        padding: 12px 28px;
         font-size: 18px;
+        align-self: center;
     }
 }

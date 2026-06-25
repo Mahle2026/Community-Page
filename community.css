@@ -90,3 +90,66 @@ nav a:hover{
     font-size: 28px;
     cursor: pointer;
 }
+
+
+@media(max-width: 768px) {
+    .navbar{
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .logo-box{
+        display: flex;
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+
+    .logo h2{
+        font-size: 1rem;
+    }
+
+    .logo p{
+        font-size: .75rem;
+    }
+
+    .menu-btn{
+        display:block;
+        margin-left: auto;
+        font-size: 28px;
+    }
+
+    nav{
+        display: none;
+        position:absolute;
+        top:80px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background: #0f172a;
+        padding: 20px;
+        border-radius: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav.active{
+        display:flex;
+    }
+
+    nav a{
+        width: 100%;
+        padding:12px 0;
+    }
+}

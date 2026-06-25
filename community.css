@@ -242,10 +242,13 @@ button:hover,
     nav.active{
         display:flex;
         align-items: center;
-        gap:12px;
+        gap:0px;
     }
 
     .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 60px;
         height: 60px;
         flex-shrink: 0;

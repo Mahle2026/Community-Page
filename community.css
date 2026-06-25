@@ -257,7 +257,6 @@ button:hover,
     .logo-box{
       display: flex;
       align-items: center;
-      gap:20px;
     }
 
     .logo-box .v,

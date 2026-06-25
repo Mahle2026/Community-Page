@@ -32,6 +32,21 @@ body{
    gap: 12px;
 }
 
+.logo-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-text h2{
+    margin:0;
+    line-height: 1.1;
+}
+
+.logo-text p{
+    margin: 2px 0 0;
+    line-height: 1.1;;
+}
+
 .logo-box{
     width: 55px;
     height: 55px;
@@ -109,20 +124,28 @@ nav a:hover{
         align-items: center;
         gap: 20px;
     }
+    .logo-text{
+        display: flex;
+        align-items: center;
+        gap:12px;
+    }
 
+    .logo-text h2{
+        margin: 0;
+        font-size: 1rem;
+        line-height: 1.1;
+    }
+
+    .logo-text p{
+        margin: 2px 0 0;
+        font-size: 0.75rem;
+        line-height: 1.1;
+    }
     .logo-box{
         display: flex;
         width: 48px;
         height: 48px;
         flex-shrink: 0;
-    }
-
-    .logo h2{
-        font-size: 1rem;
-    }
-
-    .logo p{
-        font-size: .75rem;
     }
 
     .menu-btn{

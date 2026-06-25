@@ -255,7 +255,30 @@ button:hover,
     color: #cbd5e1;
     margin-bottom: 18px;
 }
+.active-card{
+    text-decoration:none;
+    color:white;
+}
+.updates{
+    background:linear-gradient(135deg,#07111f,#0f172a,#1e3a8a);
+}
 
+.center-btn{
+    text-align: center;
+    margin-top: 35px;
+}
+.video-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 25px;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background:black;
+    color: #cbd5e1
+}
 
 @media(max-width: 768px) {
     .menu-btn{

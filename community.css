@@ -203,7 +203,6 @@ button:hover,
 .section h2{
     text-align: center;
     max-width: 0 auto 35px;
-    margin-bottom: 15px;
 }
 
 .section-intro{
@@ -232,13 +231,10 @@ button:hover,
     transition: 0.3s;
 }
 
-.dark,
 .blog-grid,
 .project-grid,
 .event-grid{
     display: grid;
-    text-align: center;
-    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     gap:25px;
     margin: 0 auto;

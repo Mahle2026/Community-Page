@@ -66,10 +66,9 @@ function showReviews() {
 }
     function deleteReview(index) {
         const reviews = JSON.parse(localStorage.getItem("reviews")) || [];
-        localStorage.setItem("reviews", JSON.stringify(reviews));
         
         reviews.splice(index, 1);
-        localStorage.setItem("reviews", JSON.stringify(reviews));
-
+        localStorage.setItem("reviews", 
+        JSON.stringify(reviews));
         showReviews();
     }

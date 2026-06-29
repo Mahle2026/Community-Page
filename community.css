@@ -24,7 +24,7 @@ body{
 
 .logo{
    display: flex;
-   flex:row
+   flex:row;
    align-items: center; 
    gap: 12px;
 }
@@ -237,6 +237,7 @@ button:hover,
 .project-grid,
 .event-grid{
     display: grid;
+    text-align: center;
     grid-template-columns: repeat(3, 1fr);
     gap:25px;
 }
@@ -270,7 +271,7 @@ button:hover,
 }
 .video-grid{
     display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 

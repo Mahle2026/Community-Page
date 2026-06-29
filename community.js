@@ -43,12 +43,12 @@ function addReview() {
 
     localStorage.setItem("reviews", JSON.stringify(comments));
     input.value = "";
-    showReview();
+    showReviews();
 
     alert("Thank you for your review!🩵");
 }
 
-function showReview() {
+function showReviews() {
     const commentsDiv = document.getElementById("comments");
     const reviews = JSON.parse(localStorage.getItem("reviews")) || [];
 

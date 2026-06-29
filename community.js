@@ -21,13 +21,15 @@ function notifyme() {
 }
 
 window.onload = function() {
-    showReviews();
-}
+    showReview();
+};
+
 function addReview() {
     const input = document.getElementById("comment-input");
-    const comments = document.getElementById("comments");
+    const comments = JSON.parse(localStorage.getItem("reviews")) || [];
 
     const text = input.value.trim();
+    
     if (text === "") {
         alert("Please write a review first.");
         return;
@@ -60,6 +62,6 @@ function showReview() {
         
         comments.splice(index, 1);
         localStorage.setItem("reviews", JSON.stringify(comments));
-        
+
         showReview();
     }

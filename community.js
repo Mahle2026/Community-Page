@@ -3,6 +3,10 @@ function toggleMenu() {
 nav.classList.toggle("active");
 }
 
+function readArticle() {
+    alert("Full article coming soon.");
+}
+
 function readBlog(number) {
        if (number === 1) {
     alert("Week 1 article coming soon!");
@@ -21,7 +25,7 @@ function notifyme() {
 }
 
 window.onload = function() {
-    showReview();
+    showReviews();
 };
 
 function addReview() {
@@ -36,10 +40,11 @@ function addReview() {
     const reviews = JSON.parse(localStorage.getItem("reviews")) || [];
     
     reviews.unshift(text);
+
     localStorage.setItem("reviews", JSON.stringify(comments));
     input.value = "";
-    showReviews();
-    
+    showReview();
+
     alert("Thank you for your review!🩵");
 }
 
@@ -66,5 +71,5 @@ function showReview() {
         reviews.splice(index, 1);
         localStorage.setItem("reviews", JSON.stringify(reviews));
 
-        showReview();
+        showReviews();
     }

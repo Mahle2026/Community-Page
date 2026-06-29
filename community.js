@@ -26,26 +26,30 @@ window.onload = function() {
 
 function addReview() {
     const input = document.getElementById("comment-input");
-    const comments = JSON.parse(localStorage.getItem("reviews")) || [];
-
     const text = input.value.trim();
 
     if (text === "") {
         alert("Please write a review first.");
         return;
     }
+
+    const reviews = JSON.parse(localStorage.getItem("reviews")) || [];
     
-    comments.unshift(text);
+    reviews.unshift(text);
     localStorage.setItem("reviews", JSON.stringify(comments));
     input.value = "";
+    showReviews();
+    
     alert("Thank you for your review!🩵");
 }
 
 function showReview() {
     const commentsDiv = document.getElementById("comments");
-    const comments = JSON.parse(localStorage.getItem("reviews")) || [];
+    const reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+
     commentsDiv.innerHTML = "";
-    comments.forEach(function(review, index) {
+
+    reviews.forEach(function(review, index) {
         commentsDiv.innerHTML += `
     <div class="comment-card">
     <h4>Community Member</h4>
@@ -56,11 +60,11 @@ function showReview() {
     });
 }
     function deleteReview(index) {
-        const comments = JSON.parse(localStorage.getItem("reviews")) || [];
-        localStorage.setItem("reviews", JSON.stringify(comments));
+        const reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+        localStorage.setItem("reviews", JSON.stringify(reviews));
         
-        comments.splice(index, 1);
-        localStorage.setItem("reviews", JSON.stringify(comments));
+        reviews.splice(index, 1);
+        localStorage.setItem("reviews", JSON.stringify(reviews));
 
         showReview();
     }

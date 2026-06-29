@@ -26,7 +26,7 @@ function addReview() {
 
     const text = input.value.trim();
     if (text === "") {
-        alert("Please write a review first.");
+        alert("Thank you for your review!🩵.");
         return;
     }
 
@@ -36,6 +36,7 @@ function addReview() {
     review.innerHTML = `
     <h4>Community Member</h4>
     <p>${text}</p>
+    <button class="delete-btn" onclick="this.parentElement.remove()">🗑️Delete</button>
     `;
     comments.prepend(review);
     input.value = "";

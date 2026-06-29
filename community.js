@@ -21,7 +21,7 @@ function notifyme() {
 }
 
 function addReview() {
-    const input = document.getElementById("comment-Input");
+    const input = document.getElementById("comment-input");
     const comments = document.getElementById("comments");
 
     const text = input.value.trim();
@@ -35,7 +35,7 @@ function addReview() {
 
     review.innerHTML = `
     <h4>Community Member</h4>
-    <p>4{text}</p>
+    <p>${text}</p>
     `;
     comments.prepend(review);
     input.value = "";

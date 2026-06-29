@@ -461,6 +461,8 @@ footer{
    .event-grid,
    .video-grid{
     display: grid;
+    text-align: center;
+    justify-content: center;
     grid-template-columns: 1fr;
     gap: 22px;
     max-width: 420px;

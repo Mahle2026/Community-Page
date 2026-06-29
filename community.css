@@ -454,4 +454,65 @@ footer{
    .story-section{
     padding: 50px 20px;
    }
+
+
+   .blog-grid,
+   .project-grid,
+   .event-grid,
+   .video-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+    max-width: 420px;
+    margin: 0 auto;
+   }
+
+   .blog-card,
+   .project-card,
+   .event-card,
+   .video-card{
+    width: 100%;
+    margin: 0 auto;
+   }
+
+   .section h2,
+   #updates h2{
+    text-align: center;
+    font-size: 2rem;
+   }
+
+   .section-intro{
+    max-width: 360px;
+    margin: 0 auto 30px;
+    text-align: center
+   }
+
+   .video-card img,
+   .project-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+   }
+
+   .tool-card{
+    width: 100%;
+    max-width: 420px;
+   }
+
+   .comments{
+    text-align: center;
+   }
+
+   .comments textarea{
+    width: 100%;
+    max-width: 420px;
+    margin: auto 15px;
+    display: block;
+   }
+
+   .commments button{
+    width: auto;
+    min-width: 180px;
+    padding: 14px 24px;
+   }
 }

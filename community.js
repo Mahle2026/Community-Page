@@ -29,7 +29,7 @@ function addReview() {
     const comments = JSON.parse(localStorage.getItem("reviews")) || [];
 
     const text = input.value.trim();
-    
+
     if (text === "") {
         alert("Please write a review first.");
         return;
@@ -39,7 +39,6 @@ function addReview() {
     localStorage.setItem("reviews", JSON.stringify(comments));
     input.value = "";
     alert("Thank you for your review!🩵");
-
 }
 
 function showReview() {

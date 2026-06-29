@@ -358,6 +358,8 @@ button:hover,
     font-size: 1rem;
     cursor: pointer;
     transition: 0.3s;
+    position: relative;
+    z-index:10;
 }
 
 #reviews button:hover{
@@ -549,7 +551,7 @@ footer{
     text-align: center;
    }
 
-   .comments textarea{
+   #reviews textarea{
     width: 100%;
     font-size: 22px;
     color: black;
@@ -559,9 +561,10 @@ footer{
     display: block;
    }
 
-   .commments button{
+#reviews button{
     width: auto;
     min-width: 180px;
     padding: 14px 24px;
+
    }
 }

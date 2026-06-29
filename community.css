@@ -450,11 +450,24 @@ footer{
     margin: auto;
    }
 
-   .section,
    .story-section{
     padding: 50px 20px;
    }
+   
+   .section{
+    width: 100%;
+    padding: 50px 20px;
+    text-align: center;
+   }
 
+   .section h2,
+   #blog h2,
+   #videos h2,
+   #reviews{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto 15px;
+   }
 
    .blog-grid,
    .project-grid,

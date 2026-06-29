@@ -41,7 +41,7 @@ function addReview() {
     
     reviews.unshift(text);
 
-    localStorage.setItem("reviews", JSON.stringify(comments));
+    localStorage.setItem("reviews", JSON.stringify(reviews));
     input.value = "";
     showReviews();
 

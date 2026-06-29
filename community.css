@@ -551,6 +551,7 @@ footer{
 
    .comments textarea{
     width: 100%;
+    height: 180px;
     max-width: 420px;
     margin: auto 15px;
     display: block;

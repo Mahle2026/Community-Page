@@ -57,6 +57,9 @@ function showReview() {
     function deleteReview(index) {
         const comments = JSON.parse(localStorage.getItem("reviews")) || [];
         localStorage.setItem("reviews", JSON.stringify(comments));
-
+        
+        comments.splice(index, 1);
+        localStorage.setItem("reviews", JSON.stringify(comments));
+        
         showReview();
     }

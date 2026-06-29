@@ -21,7 +21,7 @@ function notifyme() {
 }
 
 function addReview() {
-    const input = document.getElementById("comment-input");
+    const input = document.getElementById("comment-Input");
     const comments = document.getElementById("comments");
 
     const text = input.value.trim();
